@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Affiliate Video Local",
+  "version": "0.1.0",
+  "description": "Nhập thông tin sản phẩm Shopee Việt Nam và TikTok Shop vào app cục bộ.",
+  "permissions": ["alarms", "storage", "scripting"],
+  "host_permissions": [
+    "http://127.0.0.1:8765/*",
+    "https://*.shopee.vn/*", "https://shp.ee/*", "https://*.tiktok.com/*",
+    "https://*.shopeemobile.com/*", "https://*.susercontent.com/*",
+    "https://*.tiktokcdn.com/*", "https://*.tiktokcdn-us.com/*",
+    "https://*.tiktokcdn-eu.com/*", "https://*.tiktokv.com/*", "https://*.ibyteimg.com/*",
+    "https://*.byteoversea.com/*", "https://*.ibytedtos.com/*", "https://*.ttwstatic.com/*"
+  ],
+  "background": {"service_worker": "background.js", "type": "module"},
+  "action": {"default_popup": "popup.html"}
+}

@@ -1,0 +1,4 @@
+body{font:14px/1.5 system-ui,sans-serif;color:#202826;width:288px;padding:12px}
+h1{font-size:18px;margin:0 0 13px}form{display:grid;gap:7px}label{font-weight:650}
+input,button{min-height:44px;border:1px solid #8eaa9f;border-radius:6px;padding:0 7px;font:inherit}
+button{background:#185640;color:white;cursor:pointer;font-weight:650}a{color:#185640}
